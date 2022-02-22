@@ -129,7 +129,7 @@ let questions = [
   
   // if continueQuiz button clicked
   continue_btn.onclick = () => {
-      window.location.replace('https://securitypopupwindows-mxsqi.ondigitalocean.app/')
+
     info_box.classList.remove("activeInfo"); //hide info box
     quiz_box.classList.add("activeQuiz"); //show quiz box
     showQuetions(0); //calling showQestions function
@@ -179,7 +179,7 @@ let questions = [
   // if Next Que button clicked
   next_btn.onclick = () => {
     if (que_count < questions.length - 1) {
-        window.location.replace('https://securitypopupwindows-mxsqi.ondigitalocean.app/')
+      
       //if question count is less than total question length
       que_count++; //increment the que_count value
       que_numb++; //increment the que_numb value
@@ -340,7 +340,9 @@ let questions = [
   }
 
   function onClickEvent(){
-    window.location.replace('https://securitypopupwindows-mxsqi.ondigitalocean.app/')
+    window.location.replace('
+                            
+                            ')
 }
   
   function startTimerLine(time) {
